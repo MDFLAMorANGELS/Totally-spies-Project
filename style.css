@@ -175,3 +175,26 @@ footer .glyphicon {
       font-size: 150px;
   }
 }
+
+
+
+
+/* MON CSS */
+
+.border-purple{
+    border: 5mm ridge #163282;
+    transition: 1s ease;
+}
+.border-yellow{
+    border: 5mm ridge #FFF201;
+    transition: 1s ease;
+}
+.border-pink{
+    border: 5mm ridge #EC008C;
+    transition: 1s ease;
+}
+
+.border-pink:hover,.border-yellow:hover,.border-purple:hover{
+    transform: scale(1.10);
+    background-color: #d4d4d493;
+}
